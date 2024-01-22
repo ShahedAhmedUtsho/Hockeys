@@ -7,7 +7,7 @@
 
 body{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 .max{
     max-width: 1200px;
@@ -20,4 +20,18 @@ body{
     display: block;
     content: '';
 
+}
+.rd{
+    
+line-height: .85;
+
+font-size: clamp(2.875rem,calc((46/16 * 1rem) + (1vw - .62rem) * (100 * ((56/16) - (46/16))/(76.25 - 62))),3.5rem);
+
+
+}
+.rm{
+
+line-height: .85;
+
+font-size: clamp(2rem,calc((32/16 * 1rem) + (1vw - .2rem) * (100 * ((46/16) - (32/16))/(26.875 - 20))),2.875rem);
 }
