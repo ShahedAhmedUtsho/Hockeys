@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+   <body data-theme="light">
+      <link rel="stylesheet" href="style.css">
+      <!-- daisy ui and tailwind css cdn -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <!-- font awasome cdn -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      </head>
+      <body  >
+         <div class="hero max  mx-auto  rounded-2xl relative border-2 border-green-500  flex">
+
+
+
+            <div class="    hidden lg:visible lg:absolute lg:bottom-4 lg:right-4 lg:text-2xl z-50 bg-black text-white lg:inline-block max-w-[21em] p-[1.3em] rounded-lg box-shadow " >
+               <h2 class="text-[1em]">
+                  Meet all the heroes from the field
+               </h2>
+               <p class="text-[0.6em]">
+                  Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. 
+               </p>
+            </div>
+
+
+
+
+            <div class="carousel w-full rounded-2xl z-10  max-w-[650px]  lg:max-w-[2000px] border-2 border-red-500">
+               <div id="slide1" class="carousel-item relative w-full  ">
+                  <img src="./Images/pxfuel (5).jpg" class=" max-h[550px] w-full h-full object-cover rounded-2xl max-h-[550px]" alt="img" />
+                  <div class="absolute flex  gap-4 transform -translate-y-1/2 left-5 bottom-0 text-white ">
+                     <a href="#slide4" class="w-10 h-10  rounded-full flex items-center justify-center bg-black">❮</a> 
+                     <a href="#slide2" class="w-10 h-10 rounded-full flex items-center justify-center bg-black">❯</a>
+                  </div>
+               </div>
+               <div id="slide2" class="carousel-item relative w-full">
+                  <img  src="./Images/pxfuel (4).jpg" class="w-full rounded-2xl  h-full object-cover max-h-[550px]" alt="img" />
+                  <div class="absolute flex  gap-4 transform -translate-y-1/2 left-5 bottom-0 text-white ">
+                     <a href="#slide1" class="w-10 h-10  rounded-full flex items-center justify-center bg-black">❮</a> 
+                     <a href="#slide3" class="w-10 h-10 rounded-full flex items-center justify-center bg-black">❯</a>
+                  </div>
+               </div>
+               <div id="slide3" class="carousel-item relative w-full">
+                  <img src="./Images/pxfuel (3).jpg" class="w-full  rounded-2xl h-full object-cover max-h-[550px]" alt="img"/>
+                  <div class="absolute flex  gap-4 transform -translate-y-1/2 left-5 bottom-0 text-white ">
+                     <a href="#slide2" class="w-10 h-10  rounded-full flex items-center justify-center bg-black">❮</a> 
+                     <a href="#slide4" class="w-10 h-10 rounded-full flex items-center justify-center bg-black">❯</a>
+                  </div>
+               </div>
+               <div id="slide4" class="carousel-item relative w-full object-cover">
+                  <img src="./Images/pxfuel (2).jpg" class="w-full  rounded-2xl h-full max-h-[550px]" alt="img" />
+                  <div class="absolute flex  gap-4 transform -translate-y-1/2 left-5 bottom-0 text-white ">
+                     <a href="#slide3" class="w-10 h-10  rounded-full flex items-center justify-center bg-black">❮</a> 
+                     <a href="#slide1" class="w-10 h-10 rounded-full flex items-center justify-center bg-black">❯</a>
+                  </div>
+               </div>
+            </div>
+            
+         </div>
+         <div class="max mx-auto border min-h-36 mt-4 lg:hidden">
+            <div class="   h-full    text-xl z-50 bg-black text-white w-full p-[1em] rounded-lg box-shadow " >
+                <h2 class="text-[1em] mb-2">
+                   Meet all the heroes from the field
+                </h2>
+                <p class="text-[0.8em] opacity-65 leading-6">
+                   Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. 
+                </p>
+             </div>
+
+         </div>
+   </body>
+</html>
