@@ -35,3 +35,9 @@ line-height: .85;
 
 font-size: clamp(2rem,calc((32/16 * 1rem) + (1vw - .2rem) * (100 * ((46/16) - (32/16))/(26.875 - 20))),2.875rem);
 }
+.button{
+    color:#fff;
+    background-color: #FF4240;
+   
+    
+}
