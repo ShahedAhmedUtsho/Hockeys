@@ -474,7 +474,7 @@
          </div>
 
 
-         <article class="max m-auto flex flex-col lg:flex-row border-2 border-red-500 lg:min-h-[760px] gap-4  ">
+         <article class="max m-auto flex flex-col lg:flex-row  lg:min-h-[760px] gap-4  ">
 
          
             <div class="box-1 flex flex-col justify-between border-[1px] rounded-2xl border-[#1313181A] lg:min-h-96 gap-3 w-full  lg:w-2/5 p-5 lg:p-12">
@@ -519,51 +519,56 @@ hockeys@support.com
 
 
          
-            <div class="box-2 border-2 border-orange-500 min-h-96 w-full lg:w-3/5 ">
-               <form action="get" class="border-2 w-full rounded-xl grid lg:grid-cols-4 gap-4 min-h-[762px] grid-rows-4 ">
+            <div class="box-2  min-h-96 w-full lg:w-3/5 ">
+               <form action="get" class=" w-full rounded-xl gap-6 lg:gap-[2%] min-h-[762px] grid-rows-4 flex flex-wrap">
 
-                  <article class="lg:col-span-2">
+                  <article class=" lg:w-[49%] w-full">
                     <label for="name"><h3 class="font-xl font-bold text-[#131318] mb-2">Your Name </h3></label>
-                    <input type="text" id="name" class="p-5 w-full min-h-16  bg-[#f8f8f8] rounded-xl" placeholder="Enter your full name">
+                    <input type="text" id="name" class="p-5 w-full min-h-16  bg-[#f8f8f8] rounded-xl focus:outline-2 focus:outline-black" placeholder="Enter your full name " required>
 
 
                      
 
                   </article>
-                  <article class="lg:col-span-2">
+                  <article class="lg:w-[49%] w-full">
                      <label for="email"><h3 class="font-xl font-bold text-[#131318] mb-2">Your Email </h3></label>
-                     <input type="email" id="email" class="p-5 w-full min-h-16 rounded-xl bg-[#f8f8f8]" placeholder="Enter your email">
+                     <input type="email" id="email" class="p-5 w-full min-h-16 rounded-xl bg-[#f8f8f8] focus:outline-2 focus:outline-black" placeholder="Enter your email" required>
  
  
                       
  
                    </article >
-                   <article class="lg:col-span-2">
-                     <label for="Subject"><h3 class="font-xl font-bold text-[#131318] mb-2">Your Name </h3></label>
-                     <input type="text" id="Subject" class="p-5 w-full min-h-16 bg-[#f8f8f8] rounded-xl" placeholder="Enter your subject">
+                   <article class=" lg:w-[49%] w-full">
+                     <label for="Subject"><h3 class="font-xl font-bold text-[#131318] mb-2">Subject</h3></label>
+                     <input type="text" id="Subject" class="p-5 w-full min-h-16 bg-[#f8f8f8] rounded-xl focus:outline-2 focus:outline-black" placeholder="Enter your subject" required>
  
  
                       
  
                    </article>
-                   <article class="lg:col-span-2">
-                     <label for="PhoneNumber"><h3 class="font-xl font-bold text-[#131318] mb-2">Your Name </h3></label>
-                     <input type="text" id="PhoneNumber" class="p-5 w-full min-h-16 bg-[#f8f8f8] rounded-xl" placeholder="Enter your full name">
+                   <article class=" lg:w-[49%] w-full">
+                     <label for="PhoneNumber"><h3 class="font-xl  font-bold text-[#131318] mb-2">Phone Number </h3></label>
+                     <input type="text" id="PhoneNumber" class="p-5 w-full min-h-16 bg-[#f8f8f8] rounded-xl focus:outline-2 focus:outline-black" placeholder="Enter your full name" required>
  
  
                       
  
                    </article>
 
-                   <article class="lg:col-span-4 ">
-                     <label for="PhoneNumber"><h3 class="font-xl font-bold text-[#131318] mb-2">Your Name </h3></label>
-                     <input   type="text" id="PhoneNumber" class="  p-5 w-full min-h-16 bg-[#f8f8f8] rounded-xl" placeholder="Write your message">
+                   <article class=" w-full">
+                     <label for="Message"><h3 class="font-xl font-bold text-[#131318] mb-2">Message </h3></label>
+                     <textarea name="Message" id="Message" cols="30" rows="10" class=" h-52 lg:h-[370px] w-full  p-5  min-h-16 bg-[#f8f8f8] rounded-xl focus:outline-2 focus:outline-black" placeholder="Write your message" required>Message</textarea>
+
+
+
+
+                     
  
  
                       
  
                    </article >
-                   <button class="lg:col-span-4 bg-[#FF4240] text-white w-full h-14 ">
+                   <button  class=" bg-[#FF4240] text-white w-full h-14 rounded-xl ">
                      Send Message
 
 
@@ -600,7 +605,16 @@ hockeys@support.com
          
          
          
-         
+         <article class="max m-auto lg:min-h-40 min-h-40  mt-10 rounded-xl bg-[#13131808] p-8 flex flex-col items-center justify-center gap-5">
+            <h2 class="text-2xl font-extrabold text-[#131318]">Social Media</h2>
+            <div class="icon-div text-2xl font-extrabold flex gap-7" >
+               <i class="fa-brands fa-twitter"></i>
+               <i class="fa-brands fa-facebook"></i>
+               <i class="fa-brands fa-instagram"></i>
+               <i class="fa-brands fa-github"></i>
+            </div>
+
+         </article>
          
          
          
