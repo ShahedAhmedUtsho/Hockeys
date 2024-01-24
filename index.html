@@ -16,6 +16,10 @@
       <!-- font awasome cdn -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       </head>
+
+
+
+
       <body  >
 
 
@@ -39,7 +43,61 @@
 
 
          <div class="cont w-full m-auto px-3">
-            <main class="hero max  mx-auto  rounded-2xl relative    flex">
+
+<header class="lg:min-h-28 flex ">
+
+            <div class="navbar bg-base-100 z-50 max m-auto">
+               <div class="navbar-start">
+                 <div class="dropdown  " id="bar">
+                   <div tabindex="0" role="button" class="btn btn-ghost">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                   </div>
+                   <ul tabindex="0" class="menu menu-sm  dropdown-content mt-3 z-50 p-2 shadow bg-base-100 rounded-box w-36">
+                     <li><a >Home</a></li>
+                     <li><a>About</a></li>
+                     <li><a>Pages</a></li>
+                     <li><a>Blog</a></li>
+                     <li><a>Contact</a></li>
+                   </ul>
+                 </div>
+                 <a class="btn btn-ghost text-2xl  " id="logo"> Hockey &<span class="text-[#FF4240]">Blade</span></a>
+               </div>
+               <div class="navbar-center hidden lg:flex" id="nav">
+                 <ul class="menu menu-horizontal px-1">
+                   
+                   <li><a class="text-base font-normal" id="active">Home</a></li>
+                     <li><a>About</a></li>
+                     <li><a>Pages</a></li>
+                     <li><a>Blog</a></li>
+                     <li><a>Contact</a></li>
+                 </ul>
+               </div>
+               <div class="navbar-end flex gap-4 font-extralight ">
+                  <i class="fa-solid fa-magnifying-glass text-[#89898bdc] opacity-0  lg:opacity-100  text-xl "></i>
+
+
+
+                  <button class="  max-w-44 text-white  text-sm  lg:text-base px-[1em] py-[0.6em] bg-[#FF4240] rounded-md font-bold hover:bg-[#ff4340c2]  active:scale-95 transition-all ease-linear " >Register Now!</button >
+               </div>
+             </div>
+             
+           
+
+            </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <main class=" z-10 hero max  mx-auto  rounded-2xl relative    flex">
                <div class="    hidden lg:visible lg:absolute lg:bottom-4 lg:right-4 lg:text-2xl z-50 bg-black text-white lg:inline-block max-w-[21em] p-[1.3em] rounded-lg box-shadow " >
                   <h2 class="text-[1em] font-bold ">
                      Meet all the heroes from the field

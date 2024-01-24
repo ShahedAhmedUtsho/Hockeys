@@ -44,3 +44,32 @@ font-size: clamp(2rem,calc((32/16 * 1rem) + (1vw - .2rem) * (100 * ((46/16) - (3
 footer{
     background-color: #131318 !important;
 }
+
+#nav a{
+    color:#424247;
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+#active{
+    color: #FF4240 !important; 
+}
+
+#bar{
+    display: none;
+}
+#logo{
+    font-size: 26px;
+}
+@media  screen and (max-width:640px) {
+    #logo{
+        font-size: 18px;
+    }
+
+#bar{
+    display: block;
+    
+    
+}
+}
